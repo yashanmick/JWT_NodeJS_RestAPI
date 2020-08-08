@@ -1,4 +1,4 @@
-const jwt = require(jsonwebtoken);
+const jwt = require('jsonwebtoken');
 
 //Middleware function
 function auth(req, res, next) {
